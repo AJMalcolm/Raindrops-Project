@@ -1,7 +1,7 @@
-# Raindrops-Project
+## Raindrops-Project
 A simple exploratory project concerning input/output assurance and testing
 
-The general format for this project will be as follows:
+## The general format for this project will be as follows:
 
 1 - Initial commit comprising of project package structure, classes and requirements in gherkin format (using cucumber).
 2 - Unit tests created for core functionality (TDD).
