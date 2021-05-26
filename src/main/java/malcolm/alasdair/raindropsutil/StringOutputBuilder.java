@@ -8,8 +8,13 @@ public class StringOutputBuilder {
     private int input;
 
     public StringOutputBuilder(String input) {
-        this.input = parseInt(input);
-        createOutput();
+        try{
+            this.input = parseInt(input);
+            createOutput();
+        }
+        catch(NumberFormatException e){
+            this.output = "Please enter a valid input";
+        }
     }
 
     private void createOutput(){
