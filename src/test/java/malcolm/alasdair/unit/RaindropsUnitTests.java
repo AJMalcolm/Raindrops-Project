@@ -40,6 +40,34 @@ public class RaindropsUnitTests {
         }
 
         @ParameterizedTest
+        @ValueSource(strings = {"15", "30", "45", "60", "75"})
+        @DisplayName("raindrops returns 'PlingPlang' for multiples of 3 and 5")
+        void raindropsReturnsPlingPlangForMultipleOfThreeAndFive(String input) {
+            Assertions.assertEquals("PlingPlang", Raindrops.raindrops(input));
+        }
+
+        @ParameterizedTest
+        @ValueSource(strings = {"21", "42", "63", "84", "126"})
+        @DisplayName("raindrops returns 'PlingPlong' for multiples of 3 and 7")
+        void raindropsReturnsPlingPlongForMultipleOfThreeAndSeven(String input) {
+            Assertions.assertEquals("PlingPlong", Raindrops.raindrops(input));
+        }
+
+        @ParameterizedTest
+        @ValueSource(strings = {"35", "70", "140", "175", "245"})
+        @DisplayName("raindrops returns 'PlangPlong' for multiples of 5 and 7")
+        void raindropsReturnsPlangPlongForMultipleOfFiveAndSeven(String input) {
+            Assertions.assertEquals("PlangPlong", Raindrops.raindrops(input));
+        }
+
+        @ParameterizedTest
+        @ValueSource(strings = {"105", "210", "315", "420", "525"})
+        @DisplayName("raindrops returns 'PlingPlangPlong' for multiples of 3, 5 and 7")
+        void raindropsReturnsPlingPlangPlongForMultipleOfThreeFiveAndSeven(String input) {
+            Assertions.assertEquals("PlingPlangPlong", Raindrops.raindrops(input));
+        }
+
+        @ParameterizedTest
         @ValueSource(strings = {"1", "2", "4", "8", "11", "13"})
         @DisplayName("raindrops return its input, if that input is not a multiple of 3, 5 or 7")
         void raindropsReturnItsInputIfThatInputIsNotAMultipleOfThreeFiveOrSeven(String input) {

@@ -12,7 +12,7 @@ public class StringOutputBuilder {
         createOutput();
     }
 
-    public StringOutputBuilder createOutput(){
+    private void createOutput(){
         if(input % 3 == 0){
             output = output + "Pling";
         }
@@ -26,8 +26,6 @@ public class StringOutputBuilder {
         if(output.isEmpty()){
             output = Integer.toString(input);
         }
-
-        return this;
     }
 
     public String getOutput() {
