@@ -40,3 +40,10 @@ Write a function that takes as its input a number (n) and converts it to a strin
 - 30's factors are 1, 2, 3, 5, 6, 10, 15, 30: this would be a 'PlingPlang'
 
 - 34 has four factors: 1, 2, 17, and 34: this would be '34'
+
+
+
+
+## Development Journal
+
+I decided to skip over feature 4 (Unit tests expanded to cover more methods) as I had already created 100% test coverage during step 2.
