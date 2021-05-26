@@ -46,4 +46,4 @@ Write a function that takes as its input a number (n) and converts it to a strin
 
 ## Development Journal
 
-I decided to skip over feature 4 (Unit tests expanded to cover more methods) as I had already created 100% test coverage during step 2.
+Development has gone smoothly up to the 4th stage with only a few blips due to tiredness. Seems to be coming together nicely now!
