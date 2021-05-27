@@ -18,14 +18,19 @@ public class StringOutputBuilder {
     }
 
     private void createOutput(){
-        if(input % 3 == 0){
-            output = output + "Pling";
+        if(input <= 0){
+            output = String.valueOf(input);
         }
-        if(input % 5 == 0){
-            output = output + "Plang";
-        }
-        if(input % 7 == 0){
-            output = output + "Plong";
+        else{
+            if(input % 3 == 0){
+                output = output + "Pling";
+            }
+            if(input % 5 == 0){
+                output = output + "Plang";
+            }
+            if(input % 7 == 0){
+                output = output + "Plong";
+            }
         }
 
         if(output.isEmpty()){

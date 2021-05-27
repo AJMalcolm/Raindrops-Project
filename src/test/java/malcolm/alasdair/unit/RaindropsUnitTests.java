@@ -73,5 +73,12 @@ public class RaindropsUnitTests {
         void raindropsReturnItsInputIfThatInputIsNotAMultipleOfThreeFiveOrSeven(String input) {
             Assertions.assertEquals(input, Raindrops.raindrops(input));
         }
+
+        @ParameterizedTest
+        @ValueSource(strings = {"0", "-1", "-12", "-25", "-35", "-105"})
+        @DisplayName("raindrops return its input, if that input is less than or equal to 0")
+        void raindropsReturnItsInputIfThatInputIsLessThanOrEqualToZero(String input) {
+            Assertions.assertEquals(input, Raindrops.raindrops(input));
+        }
     }
 }
