@@ -49,3 +49,7 @@ Write a function that takes as its input a number (n) and converts it to a strin
 ## Development Journal
 
 Development has gone smoothly up to the 4th stage with only a few blips due to tiredness. Seems to be coming together nicely now!
+
+A few changes were made during the implementation of the 5th stage, altering some assumptions about the functionality of the program based upon the examples given above. The new assumptions were that negative numbers are likely outside of the normal inputs (these examples all begin with the minimum value of 1), and that non-integer inputs would be invalid (doubles etc.). To this end, negative inputs return themselves and double-type inputs return a warning message regarding an invalid input.
+
+With the development of this project coming to its end, I thought it would be interested to add a pseudo GUI to the application which can be run within an IDE's terminal. This GUI is entirely text-based and prompts the user for inputs. This version of the applicaation runs cyclically until the user terminates it with the correct response.
