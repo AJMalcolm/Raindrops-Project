@@ -13,17 +13,17 @@ Feature: The application's response varies when the input is not a multiple of 3
   Scenario: The Raindrops application receives a string input, containing non-numerical characters
     Given An input of "Hello, I am an irritating input!"
     When The application is run
-    Then The output should be "Please enter a valid input"
+    Then The output should be "Please enter a valid, integer, input"
 
   Scenario: The Raindrops application receives an empty input
     Given An empty input
     When The application is run
-    Then The output should be "Please enter a valid input"
+    Then The output should be "Please enter a valid, integer, input"
 
   Scenario: The Raindrops application receives a null input
     Given A null input
     When The application is run
-    Then The output should be "Please enter a valid input"
+    Then The output should be "Please enter a valid, integer, input"
 
   Scenario: The Raindrops application receives a string input, equal to zero
     Given An input of "0"
