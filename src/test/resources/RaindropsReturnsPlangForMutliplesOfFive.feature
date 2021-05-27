@@ -1,4 +1,4 @@
-Feature: The input is a multiple of 5
+Feature:  The program returns Plang for input multiples of 5
 
   Scenario: The Raindrops application receives an integer, string, input which is a multiple of 5
     Given An Integer input of 5

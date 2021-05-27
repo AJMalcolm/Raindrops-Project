@@ -1,4 +1,4 @@
-Feature: The input is not a multiple of 3, 5 or 7
+Feature: The application's response varies when the input is not a multiple of 3, 5 or 7
 
   Scenario: The Raindrops application receives an integer input which is not a multiple of 3, 5 or 7
     Given An Integer input of 11
