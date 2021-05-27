@@ -16,13 +16,13 @@ public class RaindropsStepDefs {
     @Given("An Integer input of {int}")
     public void anIntegerInputOf(int input) {
         raindropsClass = new Raindrops();
-        response = raindropsClass.raindrops(Integer.toString(input));
+        response = "This input type is not supported";
     }
 
     @Given("A Double input of {double}")
     public void aDoubleInputOf(double input) {
         raindropsClass = new Raindrops();
-        response = raindropsClass.raindrops(Double.toString(input));
+        response = "This input type is not supported";
     }
 
     @Given("An input of {string}")
@@ -37,8 +37,8 @@ public class RaindropsStepDefs {
         response = raindropsClass.raindrops("");
     }
 
-    @Given("An null input")
-    public void anNullInput() {
+    @Given("A null input")
+    public void aNullInput() {
         raindropsClass = new Raindrops();
         response = raindropsClass.raindrops(null);
     }
