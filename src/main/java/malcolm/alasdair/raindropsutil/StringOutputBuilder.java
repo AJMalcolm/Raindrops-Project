@@ -1,7 +1,5 @@
 package malcolm.alasdair.raindropsutil;
 
-import static java.lang.Integer.parseInt;
-
 public class StringOutputBuilder {
 
     private String output = "";
@@ -9,11 +7,11 @@ public class StringOutputBuilder {
 
     public StringOutputBuilder(String input) {
         try{
-            this.input = parseInt(input);
+            this.input = Integer.parseInt(input);
             createOutput();
         }
         catch(NumberFormatException e){
-            this.output = "Please enter a valid input";
+            this.output = "Please enter a valid, integer, input";
         }
     }
 

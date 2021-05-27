@@ -6,8 +6,6 @@ import io.cucumber.java.en.When;
 import malcolm.alasdair.raindrops.Raindrops;
 import org.junit.jupiter.api.Assertions;
 
-import static java.lang.Integer.parseInt;
-
 public class RaindropsStepDefs {
 
     Raindrops raindropsClass;
