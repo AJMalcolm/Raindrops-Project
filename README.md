@@ -1,4 +1,4 @@
-## Raindrops-Project
+# Raindrops-Project
 A simple exploratory project concerning input/output assurance and testing
 
 ## The general format for this project will be as follows:
@@ -46,7 +46,7 @@ Write a function that takes as its input a number (n) and converts it to a strin
 
 
 
-## Development Journal
+# Development Journal
 
 Development has gone smoothly up to the 4th stage with only a few blips due to tiredness. Seems to be coming together nicely now!
 
