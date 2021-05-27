@@ -13,6 +13,8 @@ A simple exploratory project concerning input/output assurance and testing
 
 5 - StepDef files populated for gherkin BDD layer.
 
+6 - Additional Terminal based GUI feature for user input. This step will not interfere with the other aspects of the project and is only meant as an experiment for additional functionality.
+
 Ongoing - Iterative improvement of existing methods/functionality and implementation of additional methods/functionality as required.
 
 
